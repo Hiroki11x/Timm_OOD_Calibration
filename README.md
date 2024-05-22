@@ -19,7 +19,7 @@ In out-of-distribution (OOD) generalization tasks, fine-tuning pre-trained model
 
 #### Pre-Trained Models from Timm
 - [pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
-- [docs](huggingface.co/docs/timm)
+- [docs](https://huggingface.co/docs/timm/index)
 
 ## Implementation
 As for the DomainBed, we follow the official implementations shown in the links below.
