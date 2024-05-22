@@ -24,7 +24,8 @@ In out-of-distribution (OOD) generalization tasks, fine-tuning pre-trained model
 ## Implementation
 As for the DomainBed, we follow the official implementations shown in the links below.
 - [DomainBed](https://github.com/facebookresearch/DomainBed)
-For experiments of CLIP model, we follow the following implementation.
+
+For experiments of CLIP model, we utilize the following implementation.
 - [OptDom: Learning Optimal Representations for Domain Shift](https://github.com/ryoungj/optdom)
 
 
