@@ -18,7 +18,6 @@ import torch
 import tqdm
 from collections import Counter
 
-# Added by Hiroki Naganuma
 from domainbed.calibration.ece import calc_ece
 from domainbed.calibration.utils import get_maxprob_and_onehot
 

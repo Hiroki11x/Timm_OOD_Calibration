@@ -197,7 +197,7 @@ if __name__ == "__main__":
     ece_config = init_config()
     ece_config['num_reps'] = 100
     ece_config['norm'] = 1
-    ece_config['ce_type'] = 'ew_ece_bin'
+    ece_config['ce_type'] = 'em_ece_bin'
     ece_config['num_bins'] = 10
 
 

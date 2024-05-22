@@ -1,5 +1,3 @@
-# Copyright (c) Hiroki Naganuma (Hiroki11x). All Rights Reserved
-
 import argparse
 import collections
 import json
