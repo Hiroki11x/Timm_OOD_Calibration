@@ -1,7 +1,7 @@
 # An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration
 
 ## Abstract
-In the realm of out-of-distribution (OOD) generalization tasks, fine-tuning pre-trained models has become a prevalent strategy. Different from most prior work that has focused on advancing learning algorithms, we systematically examined how pre-trained model size, pre-training data scale, and training strategies impact downstream generalization and uncertainty calibration. We evaluated 97 models across diverse pre-trained model sizes, five pre-training datasets, and five data augmentations through extensive experiments on four distribution shift datasets totaling over 100,000 GPU hours. Our results demonstrate the significant impact of pre-trained model selection, with optimal choices substantially improving OOD accuracy over algorithm improvement alone. We find larger models and bigger pre-training data improve OOD performance and calibration, in contrast to some prior studies that found modern deep networks to calibrate worse than classical shallow models. Our work underscores the overlooked importance of pre-trained model selection for out-of-distribution generalization and calibration.
+In out-of-distribution (OOD) generalization tasks, fine-tuning pre-trained models has become a prevalent strategy. Different from most prior work that has focused on advancing learning algorithms, we systematically examined how pre-trained model size, pre-training dataset size, and training strategies impact generalization and uncertainty calibration on downstream tasks. We evaluated 100 models across diverse pre-trained model sizes, five pre-training datasets, and five data augmentations through extensive experiments on four distribution shift datasets totaling over 120,000 GPU hours. Our results demonstrate the significant impact of pre-trained model selection, with optimal choices substantially improving OOD accuracy over algorithm improvement alone. Additionally, we find that larger models and bigger pre-training datasets not only enhance OOD performance but also improve calibration, helping to mitigate overconfidence, contrary to some prior studies that found modern deep networks to calibrate worse than classical shallow models. Our work underscores the overlooked importance of pre-trained model selection for out-of-distribution generalization and calibration.
 
 ## Prerequisites
 - Python >= 3.6.5
@@ -31,6 +31,7 @@ As for the DomainBed, we follow the official implementations shown in the links 
 ## Paper authors
 - [Hiroki Naganuma \*](https://hiroki11x.github.io/)
 - [Ryuichiro Hataya \*](https://mosko.tokyo/)
+- [Kotaro Yoshida](https://ko-taro.com/)
 - [Ioannis Mitliagkas](http://mitliagkas.github.io/)
 
 
